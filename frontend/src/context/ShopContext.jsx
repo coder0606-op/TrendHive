@@ -18,7 +18,7 @@ const ShopContextProvider = (props) => {
 
   const navigate = useNavigate();
 
-  // ✅ ADD TO CART
+ 
   const addToCart = async (itemId, size) => {
     if (!size) {
       toast.error("Select Product Size");
@@ -54,7 +54,6 @@ const ShopContextProvider = (props) => {
     }
   };
 
-  // ✅ CART COUNT
   const getCartCount = () => {
     let totalCount = 0;
 
@@ -69,7 +68,6 @@ const ShopContextProvider = (props) => {
     return totalCount;
   };
 
-  // ✅ UPDATE QUANTITY
   const updateQuantity = async (itemId, size, quantity) => {
     let cartData = structuredClone(cartItems);
     cartData[itemId][size] = quantity;
@@ -90,7 +88,7 @@ const ShopContextProvider = (props) => {
     }
   };
 
-  // ✅ TOTAL AMOUNT
+ 
   const getCartAmount = () => {
     let totalAmount = 0;
 
@@ -145,12 +143,12 @@ const ShopContextProvider = (props) => {
     }
   };
 
-  // ✅ LOAD PRODUCTS ON START
+  
   useEffect(() => {
     getProductsData();
   }, []);
 
-  // ✅ LOAD TOKEN + CART
+  
   useEffect(() => {
     const storedToken = localStorage.getItem("token");
 
@@ -160,7 +158,7 @@ const ShopContextProvider = (props) => {
     }
   }, []);
 
-  // ✅ CONTEXT VALUE
+ 
   const value = {
     products,
     currency,

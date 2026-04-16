@@ -1,182 +1,107 @@
-# 🛍️ Trend‑Hive — Full‑Stack MERN E‑Commerce Platform
+🛍️ TrendHive — Full-Stack MERN E-Commerce Platform
 
-🚀 **Trend‑Hive** is a **production‑ready, full‑stack e‑commerce application** built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and **fully deployed on Vercel**.  
-This project demonstrates real‑world **full‑stack development skills**, clean architecture, secure authentication, and modern UI practices.
+TrendHive is a production-ready full-stack e-commerce application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It demonstrates real-world full-stack development including authentication, API design, and cloud deployment.
 
----
+🌐 Live Demo & Repository
 
-## 🌐 Live Projects (Deployed on Vercel)
+GitHub Repository
+https://github.com/coder0606-op/TrendHive.git
 
-- 🛒 **User Frontend** – Product browsing & shopping experience  
-- ⚙️ **Backend API** – Secure REST API (Serverless on Vercel)  
-- 🧑‍💼 **Admin Panel** – Product & content management dashboard  
+Frontend (User Website)
+https://trend-hive-gray.vercel.app/
 
+Backend API
+https://trendhive-ortz.onrender.com/
 
-- 🛒 **Frontend (User Website)**  
-  👉 https://trend-hive-frontend-two.vercel.app/
+✨ Key Features
 
-- 🧑‍💼 **Admin Panel**  
-  👉 https://trend-hive-admin-ebon.vercel.app/
+Full-stack MERN architecture
+Clean and scalable project structure
+JWT-based authentication
+RESTful API design
+MongoDB Atlas cloud database
+Responsive UI for mobile and desktop
+Production deployment using Vercel and Render
 
-- ⚙️ **Backend API**  
-  👉 https://trend-hive-backend-three.vercel.app/
+🛒 User Features
 
----
+User registration and login
+Browse products
+Add and remove items from cart
+Dynamic cart updates
+Checkout flow
+Persistent data storage
 
-## ✨ Key Highlights
+⚙️ Backend Features
 
-✅ Full‑stack MERN architecture  
-✅ Separate **User**, **Admin**, and **Backend** applications  
-✅ Secure **JWT‑based authentication**  
-✅ **MongoDB Atlas** cloud database  
-✅ **Serverless backend** using Vercel Functions  
-✅ Responsive, modern UI  
-✅ Industry‑level project structure  
+REST API built with Express.js
+Secure JWT authentication and authorization
+MongoDB schema modeling
+Environment-based configuration
+CORS-enabled API
 
----
+🧱 Tech Stack
 
-## 🛒 User Features
+Frontend: React.js, Vite, HTML, CSS, JavaScript
+Backend: Node.js, Express.js
+Database: MongoDB Atlas
+Authentication: JWT
+Deployment: Vercel (Frontend), Render (Backend)
 
-- User registration & login  
-- Browse products  
-- Add / remove products from cart  
-- Checkout flow  
-- Order persistence  
-- Responsive design for mobile & desktop  
+📂 Project Structure
 
----
-
-## 🧑‍💼 Admin Panel Features
-
-- Admin authentication  
-- Add new products  
-- Edit existing products  
-- Delete products  
-- Manage inventory  
-
----
-
-## ⚙️ Backend Features
-
-- RESTful API using Express.js  
-- JWT authentication & authorization  
-- MongoDB schema modeling  
-- Secure environment variable handling  
-- CORS‑enabled multi‑app access  
-
----
-
-## 🧱 Tech Stack
-
-| Layer | Technologies |
-|-----|-------------|
-| Frontend | React.js, HTML, CSS, JavaScript |
-| Admin Panel | React.js |
-| Backend | Node.js, Express.js |
-| Database | MongoDB Atlas |
-| Authentication | JWT |
-| Deployment | Vercel |
-
----
-
-## 📂 Project Structure
-
-```
-trend-hive-ecommerce/
+TrendHive/
 │
-├── frontend/   → User‑facing React application
-├── admin/      → Admin dashboard (React)
-├── backend/    → Express.js API (Serverless)
+├── frontend → User-facing React application
+├── backend → Express API
 ├── .gitignore
 └── README.md
-```
 
----
+⚡ Local Setup Guide
 
-## ⚡ Local Setup Guide
+Clone Repository
 
-### 1️⃣ Clone Repository
+git clone https://github.com/coder0606-op/TrendHive.git
 
-```bash
-git clone https://github.com/Malihafatima1/trend-hive-ecommerce.git
-cd trend-hive-ecommerce
-```
+cd TrendHive
 
----
+Install Dependencies
 
-### 2️⃣ Install Dependencies
-
-```bash
 cd backend && npm install
 cd ../frontend && npm install
-cd ../admin && npm install
-```
 
----
+Environment Variables
 
-### 3️⃣ Environment Variables
+backend/.env
 
-**backend/.env**
-```
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
-```
+STRIPE_SECRET_KEY=your_stripe_key
+CLOUDINARY_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_SECRET_KEY=your_secret_key
 
-**frontend/.env**
-```
-VITE_API_URL=http://localhost:5173
-```
+frontend/.env
 
-**admin/.env**
-```
-VITE_API_URL=http://localhost:5174
-```
+VITE_BACKEND_URL=http://localhost:5000
 
----
+Run the Application
 
-### 4️⃣ Run the Application
+Backend
 
-```bash
-# Backend
 cd backend
 npm run server
 
-# Frontend
+Frontend
+
 cd ../frontend
 npm run dev
 
-# Admin
-cd ../admin
-npm run dev
-```
----
+💼 About This Project
 
-### 💼 Why Choose Me as a Developer
+TrendHive demonstrates the ability to build a complete full-stack application, design scalable backend systems, integrate frontend with APIs, and deploy real-world applications using modern tools.
 
-Trend-Hive is not just a project — it is proof that I can build, deploy, and manage a complete MERN application independently.
+👨‍💻 Developer
 
-It highlights my ability to:
-
-Think like a product developer
-
-Write maintainable, scalable code
-
-Deliver production-level features
-
-Adapt quickly to modern tools and workflows
-
-I bring ownership, problem-solving, and consistency — qualities that matter in real engineering teams.
-
----
-
-## 👩‍💻 Developer
-
-**Maliha Fatima**   
-💻 Full‑Stack MERN Developer  
-🌱 Passionate about building scalable web applications  
-
-📌 *This project is part of my professional portfolio.*
-
----
-
-⭐ If you like this project, feel free to **star** the repository!
+Ayush (coder0606-op)
+Full-Stack MERN Developer
